@@ -207,12 +207,22 @@ footer {
 }
 
 @media (max-width: 500px) {
-    nav a {
-        margin-left: 1rem;
-        font-size: 0.8rem;
+    .header-inner {
+        flex-direction: column;
+        gap: 0.5rem;
     }
 
-    .logo {
-        font-size: 1rem;
+    nav a {
+        margin-left: 0;
+        margin-right: 1rem;
+        font-size: 0.85rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .section {
+        padding: 3rem 0;
     }
 }
